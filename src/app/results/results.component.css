@@ -1,0 +1,33 @@
+div {
+    height: 60vh;
+    text-align: center;
+}
+
+.title,
+.view-scores {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 2px;
+    text-transform: lowercase;
+}
+
+.answer {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: gray;
+    margin-top: 2px;
+    margin-bottom: 50px;
+}
+
+.view-scores {
+    text-decoration: none;
+}
+
+.view-scores:hover {
+    color: white;
+}
+
+p {
+    margin: 0;
+}

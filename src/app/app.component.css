@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 15px;
+    background-color: lightgray;
+}
+
+.title {
+    flex: 1;
+    margin: 10px;
+    color: inherit;
+}
+
+a {
+    margin: 5px;
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover,
+.active {
+    color: aqua;
+}
+
+.active {
+    font-weight: bold;
+}

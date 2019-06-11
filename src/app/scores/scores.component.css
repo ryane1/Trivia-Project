@@ -1,0 +1,18 @@
+section {
+    height: 60vh;
+    text-align: center;
+}
+
+.username {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 2px;
+}
+
+.score {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: gray;
+    margin-top: 2px;
+}

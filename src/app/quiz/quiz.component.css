@@ -1,0 +1,67 @@
+main {
+    align-items: center;
+    color: black
+}
+
+h1 {
+    margin: 20px;
+    font-size: 20px;
+}
+
+.quiz {
+    color: white;
+    width: 500px;
+    border-radius: 10px;
+    padding: 40px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0 60px 0;
+}
+
+input {
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+}
+
+label {
+    margin-right: 20px;
+}
+
+.Name {
+    padding: 10px;
+    border-radius: 5px;
+    width: 300px;
+    border: none;
+    font-size: 10px;
+}
+
+button {
+    padding: 10px 150px;
+    border-radius: 10px;
+    background-color: aqua;
+    color: gray;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 15px;
+    border: none;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: blueviolet;
+}
+
+.radio-btn {
+    display: flex;
+    align-items: center;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+}
